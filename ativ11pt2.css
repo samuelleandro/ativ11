@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+}
+#boasvindas{
+    border: solid 10px black;
+    background-color: white;
+    transition: all 2s ease 0;
+    text-align: center;
+    animation-name: animação;
+    animation-duration: 6s;   
+    animation-iteration-count: infinite;
+}
+@keyframes animação{
+    0% {background-color: white;color: black}
+    25% {background-color: black;color: white}
+    50% {background-color: white;color: black}
+    75%{background-color: black;color: white}
+    100%{background-color: white;color: black}
+ }
